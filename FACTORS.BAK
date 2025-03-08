@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int i,n;
+clrscr();
+cout<<"Enter a number to find factors: ";
+cin>>n;
+for(i=1;i<=n;i++)
+{
+if(n%i==0)
+cout<<" "<<i;
+}
+getch();
+}
